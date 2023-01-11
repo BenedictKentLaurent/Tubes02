@@ -1,0 +1,51 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    xmlns:tools="http://schemas.android.com/tools" tools:ignore="HardcodedText">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="IF APPS"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="100dp"
+        android:text="Pengumuman"
+        android:id="@+id/btn_pengumuman"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="100dp"
+        android:text="Pertemuan"
+        android:id="@+id/btn_pertemuan"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="100dp"
+        android:text="FRS"
+        android:id="@+id/btn_frs"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"/>
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="100dp"
+        android:text="Keluar"
+        android:id="@+id/btn_exit"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="200dp"/>
+
+
+</RelativeLayout>

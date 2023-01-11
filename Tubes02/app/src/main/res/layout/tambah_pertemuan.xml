@@ -1,0 +1,103 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    xmlns:tools="http://schemas.android.com/tools" tools:ignore="HardcodedText">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="Tambah Pertemuan"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/judul"
+        android:text="Judul"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:id="@+id/Input1"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:background="@drawable/textview_border"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="125dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/jadwal"
+        android:text="Jadwal"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"/>
+
+    <EditText
+        android:id="@+id/Input2"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:background="@drawable/textview_border"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="225dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/partisipan"
+        android:text="Partisipan"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="315dp"/>
+
+    <EditText
+        android:id="@+id/Input3"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/textview_border"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="300dp"/>
+
+    <Button
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:text="Lihat Jadwal Dosen"
+        android:id="@+id/btn_jadwal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="400dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deksripsi"
+        android:text="Deskripsi"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="500dp"/>
+
+    <EditText
+        android:id="@+id/Input4"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:background="@drawable/textview_border"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="525dp"/>
+
+    <Button
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:text="SIMPAN"
+        android:id="@+id/btn_save"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="600dp"/>
+
+
+</RelativeLayout>

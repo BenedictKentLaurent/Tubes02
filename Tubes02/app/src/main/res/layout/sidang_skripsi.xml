@@ -1,0 +1,44 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    xmlns:tools="http://schemas.android.com/tools" tools:ignore="HardcodedText">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="Sidang Skripsi"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tags"
+        android:text="Tags : Skripsi 1, Skripsi 2"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deskripsi"
+        android:text="Sidang dilakukan pada tanggal ..............\n Lorem ipsum dolor sit amet, consectetur\n adipiscing elit, sed do eiusmod tempor\n incididunt ut labore et dolore magna aliqua."
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"/>
+
+    <Button
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:text="Mark as unread"
+        android:id="@+id/btn_mark"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="500dp"/>
+
+</RelativeLayout>

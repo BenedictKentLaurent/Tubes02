@@ -1,0 +1,27 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    xmlns:tools="http://schemas.android.com/tools" tools:ignore="HardcodedText">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="Pengumuman"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/Input1"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:background="@drawable/textview_border"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:hint="  Input Filter Here"/>
+
+</RelativeLayout>
